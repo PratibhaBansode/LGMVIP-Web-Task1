@@ -1,0 +1,65 @@
+body{
+    background-color:rgb(245, 231, 231);
+}
+.logo a{
+    float:left;
+    height:50px;
+    padding:25px;
+}
+header{
+    padding:3px 5px;
+    border-bottom:7px solid;
+    margin:20px;
+    background-color:#DAD4D3;
+}
+.navbar li{
+    list-style:none;
+    text-decoration:none;
+    padding: 3px 3px;
+    margin:3px 3px;
+    float:right;
+}
+.navbar ul{
+    overflow:auto;  
+}
+.navbar li a{
+    padding:3px 3px;
+    text-decoration:none;
+}
+#background-image{
+    background-image:url("img34.jpg");
+    box-shadow:5px 5px 5px black;
+    background-repeat:no-repeat;
+    background-position:center; 
+    height:700px;
+    width:1325px;
+    padding-top:50px;
+    color:#fff;
+    margin-top:25px;
+}
+#content{
+    padding-left:350px;
+    color:#B51730;
+    text-shadow: 2px 2px 5px black;
+}
+.column {
+    float: left;
+    padding-left:1px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding-left:50px;
+}
+table, th, td{
+    border:1px solid black;
+    margin:10px 10px 10px 100px;
+    padding:20px 20px 20px 20px;
+}
+tr:nth-child(even){
+    background-color:#f2f2f2;
+}
+tr:nth-child(odd){
+    background-color:#f8e5e5;
+}
